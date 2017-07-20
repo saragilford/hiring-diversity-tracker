@@ -82,8 +82,21 @@ h2 {
 }
 
 .todo h2 {
-  background-color: #5AC3F1;
-  color: #eee;
+  color: #444;
+  background: 0;
+  padding: 20px 0 5px;
+  border-bottom: 3px solid #ffb758;
+  display: inline-block;
+}
+
+.todo .glyphicon-arrow-right {
+  margin-right: 5px;
+}
+
+.todo .information,
+.todo .suggestion,
+.todo button {
+  margin-left: 24px;
 }
 
 .todo span {
