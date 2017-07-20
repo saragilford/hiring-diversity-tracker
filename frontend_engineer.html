@@ -1,94 +1,88 @@
 <!doctype html>
 <html>
-
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel = "stylesheet" type = "text/css" href = "styles.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-
 <body>
   <div class='hero'>
     <h1>Diversity Metrics > Frontend Engineer</h1>
   </div>
-  <h2>Recruiting Pipeline</h2>
-  <div class="pipeline-graphic">
-    <div class="Row-Container">
-      <div class="Row">
-        <img src="blue_user.png" class="image">
-        <img src="blue_user.png" class="image">
-        <img src="blue_user.png" class="image">
-        <img src="blue_user.png" class="image">
+    <h2>Recruiting Pipeline</h2>
+    <div class="pipeline-graphic">
+      <div class="Row-Container">
+        <div class="Row">
+            <img src="blue_user.png" class="image">
+            <img src="blue_user.png" class="image">
+            <img src="blue_user.png" class="image">
+            <img src="blue_user.png" class="image">
+        </div>
+        <div class="Row">
+            <img src="blue_user.png" class="image">
+            <img src="orange_user.png" class="image">
+            <img src="orange_user.png" class="image">
+            <img src="orange_user.png" class="image">
+        </div>
+        <div class="Row WithBorder Center">
+          <span class="glyphicon glyphicon-asterisk secondary"></span>Underrespresented candidates
+          <span class="glyphicon glyphicon-asterisk primary WithLeftMargin"></span>Non-underrepresented candidates
+        </div>
       </div>
-      <div class="Row">
-        <img src="blue_user.png" class="image">
-        <img src="orange_user.png" class="image">
-        <img src="orange_user.png" class="image">
-        <img src="orange_user.png" class="image">
+    </div>
+    <div class="Column-Container stats">
+      <div class="Column big-stat">
+        <div class="number-stat">-3.7%</div>
+        <div class="stat-explainer">change in pipeline diversity</div>
+        <span>vs.</span>
+        <div class="stat-explainer">the average candidate pipeline</div>
       </div>
-      <div class="Row WithBorder Center">
-        <span class="glyphicon glyphicon-asterisk secondary"></span>Underrespresented candidates
-        <span class="glyphicon glyphicon-asterisk primary WithLeftMargin"></span>Non-underrepresented candidates
+      <div class="Column big-stat">
+        <div class="number-stat">+2.2%</div>
+        <div class="stat-explainer">candidates sourced from affinity groups</div>
+        <span>vs.</span>
+        <div class="stat-explainer">the average candidate pipeline</div>
+      </div>
+      <div class="Column big-stat">
+          <div class="number-stat">+12.5%</div>
+          <div class="stat-explainer">candidates sourced from personal referrals</div>
+          <span>vs.</span>
+          <div class="stat-explainer">the average candidate pipeline</div>
       </div>
     </div>
-  </div>
-  <div class="Column-Container stats">
-    <div class="Column big-stat">
-      <div class="number-stat">-3.7%</div>
-      <div class="stat-explainer">change in pipeline diversity</div>
-      <span>vs.</span>
-      <div class="stat-explainer">the average candidate pipeline</div>
+    <div class="todo">
+      <h2>Action Items</h2>
+      <p class="reason"><span class="glyphicon glyphicon-arrow-right"></span>Based on data from other recruiting pipelines at your company, you should:</p>
+      <p class="suggestion">Find candidates from sources other than personal referrals. 64% of personal referrals at your company are not from underrepresented backgrounds.</p>
+      <button type="button" class="btn btn-primary">Source More Candidates</button>
     </div>
-    <div class="Column big-stat">
-      <div class="number-stat">+2.2%</div>
-      <div class="stat-explainer">candidates sourced from affinity groups</div>
-      <span>vs.</span>
-      <div class="stat-explainer">the average candidate pipeline</div>
+    <h2>Scheduled Interview Panels</h2>
+    <div class="todo">
+      <h2>Action Items</h2>
+      <p class="reason"><span class="glyphicon glyphicon-arrow-right"></span>Based on <a href="https://hbr.org/2016/04/if-theres-only-one-woman-in-your-candidate-pool-theres-statistically-no-chance-shell-be-hired">current research</a>, you should:</p>
+      <p class="suggestion">Make sure each candidate is interviewed by at least one person who shares their background.</p>
+      <p class="information">We identified 2 panels that might make you miss out on great candidates.</p>
+      <div class="table-responsive interview-table">
+        <table class="table">
+          <tbody>
+            <tr>
+              <td class="table-info">Laura Cho</td>
+              <td class="table-info">Wednesday 11am - 5pm</td>
+              <td><button type="button" class="btn btn-primary">Edit Interview Panel</button></td>
+            </tr>
+            <tr>
+              <td class="table-info">Annie Washington</td>
+              <td class="table-info">Thursday 12pm - 6pm</td>
+              <td><button type="button" class="btn btn-primary">Edit Interview Panel</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-    <div class="Column big-stat">
-      <div class="number-stat">+12.5%</div>
-      <div class="stat-explainer">candidates sourced from personal referrals</div>
-      <span>vs.</span>
-      <div class="stat-explainer">the average candidate pipeline</div>
-    </div>
-  </div>
-  <div class="todo">
-    <h2>Action Items</h2>
-    <p class="reason"><span class="glyphicon glyphicon-arrow-right"></span>Based on data from other recruiting pipelines at your company, you
-      should:</p>
-    <p class="suggestion">Find candidates from sources other than personal referrals. 64% of personal referrals at your company are not from underrepresented
-      backgrounds.</p>
-    <button type="button" class="btn btn-primary">Source More Candidates</button>
-  </div>
-  <h2>Scheduled Interview Panels</h2>
-  <div class="todo">
-    <h2>Action Items</h2>
-    <p class="reason"><span class="glyphicon glyphicon-arrow-right"></span>Based on <a href="https://hbr.org/2016/04/if-theres-only-one-woman-in-your-candidate-pool-theres-statistically-no-chance-shell-be-hired">current research</a>,
-      you should:</p>
-    <p class="suggestion">Make sure each candidate is interviewed by at least one person who shares their background.</p>
-    <p class="information">We identified 2 panels that might make you miss out on great candidates.</p>
-    <div class="table-responsive interview-table">
-      <table class="table">
-        <tbody>
-          <tr>
-            <td class="table-info">Laura Cho</td>
-            <td class="table-info">Wednesday 11am - 5pm</td>
-            <td><button type="button" class="btn btn-primary">Edit Interview Panel</button></td>
-          </tr>
-          <tr>
-            <td class="table-info">Annie Washington</td>
-            <td class="table-info">Thursday 12pm - 6pm</td>
-            <td><button type="button" class="btn btn-primary">Edit Interview Panel</button></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
 
-  <script src="node_modules/highcharts/highcharts.js"></script>
+    <script src="node_modules/highcharts/highcharts.js"></script>
 </body>
-
 </html>
